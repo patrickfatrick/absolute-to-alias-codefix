@@ -1,0 +1,32 @@
+{
+  "name": "absolute-to-alias-codefix",
+  "version": "1.0.0",
+  "description": "Codefix to help with converting a codebase that uses webpack absolute imports to an alias instead.",
+  "main": "index.js",
+  "bin": {
+    "a2a": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickfatrick/absolute-to-alias-codefix.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Patrick Fricano <patrick.fricano@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patrickfatrick/absolute-to-alias-codefix/issues"
+  },
+  "homepage": "https://github.com/patrickfatrick/absolute-to-alias-codefix#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  },
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "minimist": "^1.2.0"
+  }
+}
